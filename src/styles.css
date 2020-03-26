@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  margin: 0;
+}
+
+#description {
+  margin: 0;
+}
+
+.legendText {
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font: 15px sans-serif;
+  background: lightsteelblue;
+  border-radius: 8px;
+}
